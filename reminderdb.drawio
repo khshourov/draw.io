@@ -7,7 +7,7 @@
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-2" target="K7-odbcYmQNv5RkwU9Vm-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K7-odbcYmQNv5RkwU9Vm-2" value="&lt;div&gt;Receiver Adapter&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="K7-odbcYmQNv5RkwU9Vm-2" value="&lt;div&gt;Receiver Multiplexer&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="200" y="510" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-3" value="Disk" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -34,20 +34,20 @@
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-12" target="K7-odbcYmQNv5RkwU9Vm-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K7-odbcYmQNv5RkwU9Vm-12" value="HTTP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="90" y="430" width="80" height="80" as="geometry" />
+        <mxCell id="K7-odbcYmQNv5RkwU9Vm-12" value="JAVA Connecor" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="425" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-13" target="K7-odbcYmQNv5RkwU9Vm-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K7-odbcYmQNv5RkwU9Vm-13" value="gRPC" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="90" y="530" width="80" height="80" as="geometry" />
+        <mxCell id="K7-odbcYmQNv5RkwU9Vm-13" value="PHP Connector" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="530" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-14" target="K7-odbcYmQNv5RkwU9Vm-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K7-odbcYmQNv5RkwU9Vm-14" value="GraphQL" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="90" y="630" width="80" height="80" as="geometry" />
+        <mxCell id="K7-odbcYmQNv5RkwU9Vm-14" value="Python Connector" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="640" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-18" target="K7-odbcYmQNv5RkwU9Vm-13">
           <mxGeometry relative="1" as="geometry" />
@@ -56,28 +56,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-18" value="Auth Sender" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="520" width="30" height="60" as="geometry" />
+          <mxGeometry x="-90" y="520" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-18" target="K7-odbcYmQNv5RkwU9Vm-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-22" value="Auth Receiver" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="800" y="520" width="30" height="60" as="geometry" />
+          <mxGeometry x="910" y="530" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-25" value="HTTP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="690" y="425" width="80" height="80" as="geometry" />
+          <mxGeometry x="760" y="425" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-26" target="K7-odbcYmQNv5RkwU9Vm-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-26" value="gRPC" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="690" y="530" width="80" height="80" as="geometry" />
+          <mxGeometry x="760" y="530" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-27" target="K7-odbcYmQNv5RkwU9Vm-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-27" value="GraphQL" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="690" y="630" width="80" height="80" as="geometry" />
+          <mxGeometry x="760" y="630" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-4" target="K7-odbcYmQNv5RkwU9Vm-27">
           <mxGeometry relative="1" as="geometry" />
