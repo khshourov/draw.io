@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.4">
   <diagram name="High Level Overview" id="n91Zhh8OkBto-IJQy9Xf">
-    <mxGraphModel dx="2074" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-2" target="K7-odbcYmQNv5RkwU9Vm-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K7-odbcYmQNv5RkwU9Vm-2" value="&lt;div&gt;Receiver Multiplexer&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="K7-odbcYmQNv5RkwU9Vm-2" value="&lt;div&gt;Command Multiplexer&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="200" y="510" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-3" value="Disk" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -19,7 +19,7 @@
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-4" target="K7-odbcYmQNv5RkwU9Vm-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K7-odbcYmQNv5RkwU9Vm-4" value="Sender Adapter" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="K7-odbcYmQNv5RkwU9Vm-4" value="Sender" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="570" y="510" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-8" target="K7-odbcYmQNv5RkwU9Vm-4">
@@ -55,13 +55,13 @@
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-18" target="K7-odbcYmQNv5RkwU9Vm-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K7-odbcYmQNv5RkwU9Vm-18" value="Auth Sender" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="K7-odbcYmQNv5RkwU9Vm-18" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-90" y="520" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="K7-odbcYmQNv5RkwU9Vm-18" target="K7-odbcYmQNv5RkwU9Vm-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K7-odbcYmQNv5RkwU9Vm-22" value="Auth Receiver" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="K7-odbcYmQNv5RkwU9Vm-22" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="910" y="530" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K7-odbcYmQNv5RkwU9Vm-25" value="HTTP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
